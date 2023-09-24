@@ -27,8 +27,8 @@ class Training:
         )
 
         dataflow_kwargs = dict(
-            target_size=self.config.params_image_size[:-1],
-            batch_size=self.config.params_batch_size,
+            target_size = self.config.params_image_size[:-1],
+            batch_size  = self.config.params_batch_size,
             interpolation="bilinear"
         )
 
