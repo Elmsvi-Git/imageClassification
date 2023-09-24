@@ -1,11 +1,11 @@
 import os
 
-%pwd
+#%pwd
 
 os.chdir('../')
 
 
-%pwd
+#%pwd
 
 
 
